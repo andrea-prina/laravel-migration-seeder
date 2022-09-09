@@ -56,6 +56,20 @@ class TrainsTableSeeder extends Seeder
                 'delay_minutes' => 0,
                 'cancelled' => 0
             ],
+            [
+                'company' => 'Trenitalia',
+                'departure_station' => 'Torino',
+                'arrival_station' => 'Napoli',
+                'departure_date' => '2022-09-09',
+                'departure_time' => '14:00:00',
+                'arrival_date' => '2022-09-09',
+                'arrival_time' => '20:30:00',
+                'train_code' => 'FR14765',
+                'carriage_num' => 8,
+                'on_time' => 0,
+                'delay_minutes' => 60,
+                'cancelled' => 0
+            ],
         ];
 
         foreach ($trains as $train) {
